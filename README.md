@@ -1,1 +1,70 @@
-# spark-delta-iceberg
+# Projeto: Apache Spark com Delta Lake e Apache Iceberg
+
+Projeto desenvolvido com o objetivo de demonstrar o uso do Apache Spark local (via PySpark), realizando leitura, gravação e manipulação de dados em arquivos nos formatos **Delta Lake** e **Apache Iceberg**, de forma totalmente local.
+
+A estrutura do projeto inclui um ambiente configurado com `uv`, notebooks com exemplos de código PySpark e uma documentação interativa criada com MkDocs.
+
+---
+
+## Avisos
+
+- Este projeto utiliza arquivos locais e bibliotecas específicas. Certifique-se de seguir os passos de instalação para garantir compatibilidade.
+- A execução requer Python 3.11 ou superior.
+- A manipulação dos dados é feita em notebooks Jupyter, e o kernel correto precisa ser selecionado.
+
+---
+
+## Pré-requisitos
+
+- Python 3.11+
+- uv
+- JupyterLab para execução dos notebooks
+
+---
+
+## Instalação
+
+1. Clone o repositório:
+
+
+2. Inicialize o ambiente com o **uv**:
+
+```bash
+uv init
+uv venv
+source .venv/bin/activate  # No Windows use: .\.venv\Scripts\activate
+uv add pyspark==3.5.3 delta-spark==3.2.0 jupyterlab ipykernel
+```
+
+
+3. Selecione o kernel do ambiente virtual `.venv` no Jupyter antes de executar os notebooks.
+
+---
+
+## How-to (Como utilizar)
+
+- Os exemplos de Spark Delta estão no notebook:
+
+  - `spark-delta-lake.ipynb` – demonstra como instanciar o SparkSession, criar uma tabela Delta Lake, inserir, atualizar e deletar dados.
+
+---
+
+## Documentação
+
+A documentação completa do projeto foi desenvolvida com **MkDocs** e está disponível localmente.
+
+### Para visualizar:
+
+```bash
+mkdocs serve
+```
+
+Acesse no navegador: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+A documentação inclui:
+
+- Introdução ao projeto
+- Modelo ER 
+- Códigos DDL e DML para Delta Lake e Iceberg
+
+---
