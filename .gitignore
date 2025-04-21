@@ -5,7 +5,8 @@
 __pycache__/
 *.pyc
 
-
+# Ignorar dados gerados localmente
+data-warehouse/
 
 # Ignorar arquivos do Jupyter
 .ipynb_checkpoints/
