@@ -52,23 +52,8 @@ uv add pyspark==3.5.3 delta-spark==3.2.0 jupyterlab ipykernel
 
 ## Documentação
 
-A documentação completa do projeto foi desenvolvida com **MkDocs** e está disponível localmente.
+A documentação completa do projeto foi desenvolvida com **MkDocs** e está disponível [aqui](https://anabea07.github.io/spark-delta-iceberg/)
 
-### Para visualizar:
-
-```bash
-mkdocs serve
-```
-
-Acesse no navegador: [http://127.0.0.1:8000](http://127.0.0.1:8000)
-
-A documentação inclui:
-
-- Introdução ao projeto
-- Modelo ER 
-- Códigos DDL e DML para Delta Lake e Iceberg
-
----
 ---
 
 ## Referências
