@@ -46,6 +46,7 @@ uv add pyspark==3.5.3 delta-spark==3.2.0 jupyterlab ipykernel
 - Os exemplos de Spark Delta estão no notebook:
 
   - `spark-delta-lake.ipynb` – demonstra como instanciar o SparkSession, criar uma tabela Delta Lake, inserir, atualizar e deletar dados.
+  - `spark-apache-iceberg.ipynb` – demonstra como instanciar o SparkSession, criar uma tabela Apache Iceberg, inserir, atualizar e deletar dados.
 
 ---
 
