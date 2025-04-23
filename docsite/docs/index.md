@@ -10,4 +10,4 @@ Projeto desenvolvido para demonstração do Apache Spark Local (pyspark) gravand
 
 ## Apache Spark com Apache Iceberg
 
-- [Apache Iceberg](iceberg.md).
+- [Apache Iceberg](iceberg.md): descrição da tabela Iceberg, modelo ER, código DDL e exemplos de comandos `INSERT` e `DELETE`.
