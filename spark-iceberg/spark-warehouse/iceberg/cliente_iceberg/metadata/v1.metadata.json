@@ -1,0 +1,51 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "26341ba6-3f9f-4453-a3b4-f29233e4f8d4",
+  "location" : "spark-warehouse/iceberg/cliente_iceberg",
+  "last-sequence-number" : 0,
+  "last-updated-ms" : 1745413790961,
+  "last-column-id" : 3,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "id",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 2,
+      "name" : "nome",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "email",
+      "required" : false,
+      "type" : "string"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "ana_beatriz",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : -1,
+  "refs" : { },
+  "snapshots" : [ ],
+  "statistics" : [ ],
+  "partition-statistics" : [ ],
+  "snapshot-log" : [ ],
+  "metadata-log" : [ ]
+}
