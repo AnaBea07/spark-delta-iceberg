@@ -69,3 +69,11 @@ A documentação inclui:
 - Códigos DDL e DML para Delta Lake e Iceberg
 
 ---
+---
+
+## Referências
+
+[Como Usar Python com Apache Spark? Guia Prático de PySpark! - DataWay BR](https://www.youtube.com/watch?v=WwrX1YVmOyA&t=1270s&ab_channel=DataWayBR) <br>
+[Como Sair do Zero no Delta Lake e PySpark - DataWay BR](https://www.youtube.com/watch?v=eOrWEsZIfKU&ab_channel=DataWayBR) <br>
+[Repositório spark-delta](https://github.com/jlsilva01/spark-delta)
+[Repositório spark-iceberg](https://github.com/jlsilva01/spark-iceberg)
